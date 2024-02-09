@@ -3,4 +3,4 @@
 - [Chrome プラットフォームのステータス](https://chromestatus.com/feature/5640066519007232)。
 - [Blink のステータス](https://groups.google.com/a/chromium.org/g/blink-dev/search?q=first-party%20sets)。
 - [Chromium プロジェクト](https://www.chromium.org/updates/first-party-sets)。
-- [First-Party Sets の提出ガイドライン](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md)
+- [First-Party Sets の提出ガイドライン](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md)

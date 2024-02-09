@@ -92,7 +92,7 @@ Chrome は、ウェブでの主要なユースケースに対応するために�
 
 {% Aside %}<br> 「関連」サブセットについては、広範なトラッキングの悪用を防ぐための客観的で技術的なメカニズムとして、3 つのドメインの数値制限を提案しました。ユーザーの理解を評価する公平な方法がないため、広範囲にわたるパッシブトラキングの可能性に対する保護を維持するには、数値制限が最も適切であると感じました。 「関連」サブセットに適合する可能性のある複数のドメイン（3 つ以上）を持つ組織の場合は、Chrome が、サードパーティ Cookie の廃止後にユーザーが直面するダメージを最小限に抑える方法を検討できるように、具体的なユースケースを特定することをお勧めします。{% endAside %}
 
-これらのユースケースにはそれぞれ、個別のポリシー要件、対応する技術的な検証チェック、および特定のブラウザ処理動作があります（詳細については、[提出ガイドライン](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md)をご覧ください）。これらの変更は、「フリーサイズ」の設計を放棄し、区分化されたユースケース主導のフレームワークを優先することで、元の提案の制限を解決しています。
+これらのユースケースにはそれぞれ、個別のポリシー要件、対応する技術的な検証チェック、および特定のブラウザ処理動作があります（詳細については、[提出ガイドライン](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md)をご覧ください）。これらの変更は、「フリーサイズ」の設計を放棄し、区分化されたユースケース主導のフレームワークを優先することで、元の提案の制限を解決しています。
 
 ### サードパーティ Cookie へのアクセスに対する積極的なリクエストによる相互運用性の機会
 
@@ -121,7 +121,7 @@ FPS を使用すると、開発者は、主要なユースケースを提供し�
 - [WICG](https://github.com/WICG/first-party-sets/issues) でのインキュベーション
 - [FPS テスト手順](/blog/first-party-sets-testing-instructions/)
 - [First-Party Sets: 統合ガイド](/docs/privacy-sandbox/first-party-sets-integration/)
-- [FPS 提出ガイドライン](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md)
+- [FPS 提出ガイドライン](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md)
 
 ## エコシステムとの連携
 

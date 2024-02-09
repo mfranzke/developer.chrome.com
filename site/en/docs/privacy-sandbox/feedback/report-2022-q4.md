@@ -618,7 +618,7 @@ We have clarified in WICG calls that Chrome is committed to providing a usable s
     <tr>
       <td>Request for more details about the abuse mitigation measures</td>
       <td>What happens if a domain is added to a set they did not consent to?</td>
-      <td>We have published submission guidelines for First-Party Sets<a href="https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md"> here</a> on December 2, 2022.<br>
+      <td>We have published submission guidelines for First-Party Sets<a href="https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md"> here</a> on December 2, 2022.<br>
 <br>
 As explained in the submission guidelines, any set change management will be following and respecting a validation process on GitHub, including validation on ownership, which should mitigate this risk.</td>
     </tr>
@@ -656,7 +656,7 @@ As explained in the submission guidelines, any set change management will be fol
 <li>GDPR Validated Sets also proposes to "define a Set as a group of data controllers and processors that share a common use policy." This is similar to the requirement in our original First-Party Sets proposal that all parties in a set must share a common privacy policy. We have since removed that requirement based on strong feedback from the ecosystem raising concerns about privacy policy-based requirements. For example, we heard from site publishers that maintaining a common privacy policy was infeasible because of product and geographical variations, among other challenges raised by members of the W3C community (<a href="https://github.com/WebKit/standards-positions/issues/93#issuecomment-1357694422">1</a>,<a href="https://www.google.com/url?q=https://github.com/WICG/first-party-sets/issues/48&sa=D&source=docs&ust=1674574967860008&usg=AOvVaw1g-YA8v1Z26oFXE5djsGiC"> 2</a>, <a href="https://www.google.com/url?q=https://github.com/WICG/first-party-sets/issues/75&sa=D&source=docs&ust=1674574967859841&usg=AOvVaw3EJFbjV4U9Vbbz4xs2zr2j">3</a>). We believe that the same challenges would apply to this proposal.</li>
 </ul>
 <br>
-Since this alternative was raised, Chrome has updated the <a href="https://github.com/WICG/first-party-sets">First-Party Sets proposal</a> and published <a href="https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md">submission guidelines</a> for creating new sets. </td>
+Since this alternative was raised, Chrome has updated the <a href="https://github.com/WICG/first-party-sets">First-Party Sets proposal</a> and published <a href="https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md">submission guidelines</a> for creating new sets. </td>
     </tr>
   </tbody>
 </table>

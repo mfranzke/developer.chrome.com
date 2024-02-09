@@ -523,7 +523,7 @@ CMA へのコミットメントの一環として、Google は、プライバシ
     <tr>
       <td>悪用緩和対策の詳細についてのリクエスト</td>
       <td>同意していないセットにドメインが追加された場合はどうなりますか？</td>
-      <td>2022 年 12 月 2 日に、 <a href="https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md">こちら</a>で First-Party Sets の提出ガイドラインを公開しました。<br><br>提出ガイドラインで説明されているように、一連の変更管理は、所有権の検証を含む GitHub の検証プロセスに従って、これを尊重します。これにより、このリスクが軽減されます。</td>
+      <td>2022 年 12 月 2 日に、 <a href="https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md">こちら</a>で First-Party Sets の提出ガイドラインを公開しました。<br><br>提出ガイドラインで説明されているように、一連の変更管理は、所有権の検証を含む GitHub の検証プロセスに従って、これを尊重します。これにより、このリスクが軽減されます。</td>
     </tr>
     <tr>
       <td>不正使用の軽減</td>
@@ -547,7 +547,7 @@ CMA へのコミットメントの一環として、Google は、プライバシ
       <td>「GDPR Validated Sets」を採用するという提案に関してエコシステムから提供されたフィードバックに加え、Chrome はこの代替提案の次の制限について懸念しています。<br><br><ul><li> 「GDPR Validated Sets」は、GDPR に「準拠する」と主張しています（ただし、それが何を意味するのかは明確ではありません）。対照的に、Google のコミットメントでは、「プライバシーの結果への影響」をより一般的に考慮する必要があります。CMA は、コミットメントを受け入れる決定において、これは「該当するデータ保護法に規定されているデータ保護原則の遵守」を考慮する Google の義務とは異なると指摘しています。これは、CMA が説明しているように、Google がコミットメントに適用される場合と、より一般的に適用される場合の両方で、適用されるデータ保護法に拘束されます。</li></ul>
 <br><ul><li>ドメインが複数のセットに表示されることを許可するという提案について、プライバシー上の懸念があります。First-Party Sets は、広範なクロスサイト トラッキングを有効にすることなく、現在サード パーティ Cookie に依存している特定のユース ケースをサポートすることを目的としています。ドメインが複数のセットに参加できるようにすると、他の意味のある制限を導入することなく、First-Party Sets の提案に組み込まれている主要なプライバシー保護が打ち消されます。</li></ul>
 <br><ul><li> GDPR Validated Sets は、「共通の使用ポリシーを共有するデータ管理者と処理者のグループとしてセットを定義する」ことも提案しています。これは、セット内のすべての当事者が共通のプライバシー ポリシーを共有する必要があるという、最初の First-Party Sets 提案の要件に似ています。その後、プライバシー ポリシーに基づく要件に関する懸念を提起するエコシステムからの強いフィードバックに基づいて、その要件を削除しました。たとえば、共通のプライバシー ポリシーを維持することは、W3C コミュニティのメンバーによって提起された他の課題の中でも特に、製品や地理的な違いのために<a href="https://www.google.com/url?q=https://github.com/WICG/first-party-sets/issues/48&amp;sa=D&amp;source=docs&amp;ust=1674574967860008&amp;usg=AOvVaw1g-YA8v1Z26oFXE5djsGiC">実行不可能であると、サイト運営者は述べています（</a><a href="https://www.google.com/url?q=https://github.com/WICG/first-party-sets/issues/75&amp;sa=D&amp;source=docs&amp;ust=1674574967859841&amp;usg=AOvVaw3EJFbjV4U9Vbbz4xs2zr2j">1</a>、<a href="https://www.google.com/url?q=https://github.com/WICG/first-party-sets/issues/48&amp;sa=D&amp;source=docs&amp;ust=1674574967860008&amp;usg=AOvVaw1g-YA8v1Z26oFXE5djsGiC"> 2</a>、<a href="https://github.com/WebKit/standards-positions/issues/93#issuecomment-1357694422">3</a>）。私たちは、この提案にも同じ課題が当てはまると考えています。</li></ul>
-<br>この代替案が提起されて以来、Chrome は <a href="https://github.com/WICG/first-party-sets">First-Party Sets の提案</a>を更新し、新しいセットを作成するための<a href="https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md">提出ガイドライン</a>を公開しました。</td>
+<br>この代替案が提起されて以来、Chrome は <a href="https://github.com/WICG/first-party-sets">First-Party Sets の提案</a>を更新し、新しいセットを作成するための<a href="https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md">提出ガイドライン</a>を公開しました。</td>
     </tr>
   </tbody>
 </table>

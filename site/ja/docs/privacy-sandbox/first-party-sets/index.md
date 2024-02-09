@@ -28,7 +28,7 @@ First-Party Sets（FPS）は、企業がサイト間の関係を宣言し、ブ�
 
 大まかに言えば、First-Party Set はドメインの集合であり、単一の「セット プライマリ」と場合によっては複数の「セット メンバー」が存在します。
 
-サイトの作成者は、[ドメインをセットに提出](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md)する必要があります。セットメンバーには、 [ユースケースに基づいたサブセット](https://github.com/WICG/first-party-sets#defining-a-set-through-use-case-based-subsets)を含むさまざまなドメイン タイプを含めることができます。
+サイトの作成者は、[ドメインをセットに提出](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md)する必要があります。セットメンバーには、 [ユースケースに基づいたサブセット](https://github.com/WICG/first-party-sets#defining-a-set-through-use-case-based-subsets)を含むさまざまなドメイン タイプを含めることができます。
 
 ## First-Party Sets のユースケース
 

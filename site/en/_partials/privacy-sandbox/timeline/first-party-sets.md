@@ -3,4 +3,4 @@
 *  [Chrome Platform Status](https://chromestatus.com/feature/5640066519007232).
 *  [Blink status](https://groups.google.com/a/chromium.org/g/blink-dev/search?q=first-party%20sets).
 *  [Chromium Projects](https://www.chromium.org/updates/first-party-sets)
-*  [Related Website Sets submission guidelines](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md)
+*  [Related Website Sets submission guidelines](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md)

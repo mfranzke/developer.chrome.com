@@ -35,7 +35,7 @@ RWS は広告ソリューションとしての機能を意図としていない�
 
 ## 次のステップ
 
-これまでこの API の形成に貢献していただいたエコシステムからのフィードバックに感謝しています。開発者が構築するウェブサイトのエンドユーザーエクスペリエンスを維持するための予測可能性、制御性、および主体性を提供する方法として RWS に取り組んできました。RWS をリリースするに当たり、開発者がそれを採用して使用する要するを目の当たりにし、感激しています。[提出プロセス](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md)は現在公開中であり、提出を支援するための出発点としては [RWS JSON ジェネレーターツール](https://goo.gle/rws-json-generator)を使用するのが最適です。
+これまでこの API の形成に貢献していただいたエコシステムからのフィードバックに感謝しています。開発者が構築するウェブサイトのエンドユーザーエクスペリエンスを維持するための予測可能性、制御性、および主体性を提供する方法として RWS に取り組んできました。RWS をリリースするに当たり、開発者がそれを採用して使用する要するを目の当たりにし、感激しています。[提出プロセス](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md)は現在公開中であり、提出を支援するための出発点としては [RWS JSON ジェネレーターツール](https://goo.gle/rws-json-generator)を使用するのが最適です。
 
 進捗は、[Intent to Ship スレッド](https://groups.google.com/a/chromium.org/g/blink-dev/c/7_6JDIfE1as/m/wModmpcaAgAJ)で追跡できます。また、実装ガイドについては、[こちらの資料](/docs/privacy-sandbox/first-party-sets-integration/)をご覧ください。
 

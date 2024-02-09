@@ -1611,7 +1611,7 @@ Sets and Storage Access API.</td>
       <td style="vertical-align: top;">How does the Related Website Sets repository prevent non-owners from
 modifying sets?</td>
       <td style="vertical-align: top;">Per the <a
-href="https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md)">submission
+href="https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md)">submission
 guides</a>, anyone can submit a PR on GitHub to edit the
 <code>first_party_sets.JSON</code> file. However, if the PR is approved (passes
 technical validations, and so forth), it will be manually merged in batches

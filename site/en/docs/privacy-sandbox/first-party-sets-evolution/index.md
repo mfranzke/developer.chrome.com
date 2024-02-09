@@ -202,7 +202,7 @@ user-facing breakage post-third-party cookie deprecation.
 For each of these use cases, there are discrete policy requirements,
 corresponding technical validation checks, and specific browser-handling
 behavior (learn more at
-[Submission Guidelines](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md)).
+[Submission Guidelines](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md)).
 These changes address the limitations in the original proposal by abandoning a
 "one size fits all" design, and favoring a compartmentalized, use case-driven
 framework.
@@ -262,7 +262,7 @@ To engage check out the following resources:
 -   Incubation in [WICG](https://github.com/WICG/first-party-sets/issues)
 -   [FPS testing instructions](/blog/first-party-sets-testing-instructions/)
 -   [First-Party Sets: integration guide](/docs/privacy-sandbox/first-party-sets-integration/)
--   [FPS Submission Guidelines](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md)
+-   [FPS Submission Guidelines](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md)
 
 ## Working with the ecosystem
 

@@ -21,7 +21,7 @@ Chrome はサード パーティ Cookie を廃止するにおいて、ユーザ�
 
 大まかに言えば、First-Party Set はドメインの集合であり、単一の「セット プライマリ」と場合によっては複数の「セット メンバー」が存在します。
 
-以下の例では、`primary` はプライマリドメインをリストし、`associatedSites` は[関連付けられたサブセット](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md#set-formation-requirements)の要件を満たすドメインをリストします。
+以下の例では、`primary` はプライマリドメインをリストし、`associatedSites` は[関連付けられたサブセット](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md#set-formation-requirements)の要件を満たすドメインをリストします。
 
 ```js
 {
@@ -32,11 +32,11 @@ Chrome はサード パーティ Cookie を廃止するにおいて、ユーザ�
 
 正規の FPS リストは、[FPS GitHub リポジトリ](https://github.com/googlechrome/first-party-sets)にホストされた JSON ファイル形式で公開され、すべてのセットの信頼できる情報源として機能します。Chrome はこのファイルを使用して、その動作に適用します。
 
-ドメインのセットを作成できるのは、そのドメインに対する管理権限を持つユーザーのみです。提出者は「セット メンバー」と「セット プライマリ」の関係を宣言する必要があります。セット メンバーには様々なドメインタイプを含めることができ、[ユースケースに基づくサブセット](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md#set-formation-requirements)の一部である必要があります。
+ドメインのセットを作成できるのは、そのドメインに対する管理権限を持つユーザーのみです。提出者は「セット メンバー」と「セット プライマリ」の関係を宣言する必要があります。セット メンバーには様々なドメインタイプを含めることができ、[ユースケースに基づくサブセット](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md#set-formation-requirements)の一部である必要があります。
 
 アプリケーションが同じ First-Party Set 内のサイト間でクロスサイト Cookie（サード パーティ Cookie）へのアクセスを使用している場合、[Storage Access API（SAA）](https://privacycg.github.io/storage-access/)と [requestStorageAccessFor API](https://privacycg.github.io/requestStorageAccessFor/) を使用して、それらの Cookie へのアクセスをリクエストできます。各サイトが属するサブセットに応じて、ブラウザはリクエストを異なる方法で処理する場合があります。
 
-セットを提出するためのプロセスと要件の詳細については、[提出ガイドライン](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md)をご覧ください。提出されたセットは、提出内容を検証するためのさまざまな技術的チェックにかけられます。
+セットを提出するためのプロセスと要件の詳細については、[提出ガイドライン](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md)をご覧ください。提出されたセットは、提出内容を検証するためのさまざまな技術的チェックにかけられます。
 
 ## FPS のユースケース
 
@@ -317,8 +317,8 @@ https://first-party-sets.glitch.me/
 ドメイン間の関係を宣言し、ドメインが属するサブセットを指定するには、次の手順に従います。
 
 1. 関連するドメインを特定します。これには、FPS の一部となる**セットプライマリ**と**セットメンバー**が含まれます。また、各セットメンバーが属する**サブセットタイプ**を特定します。
-2. [セット形成要件](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md#set-formation-requirements)と[セット検証要件が](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md#set-validation-requirements)整っていることを確認します。
-3. FPS を正しい [JSON 形式](https://github.com/GoogleChrome/first-party-sets/blob/main/FPS-Submission_Guidelines.md#set-submissions)で宣言します。
+2. [セット形成要件](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md#set-formation-requirements)と[セット検証要件が](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md#set-validation-requirements)整っていることを確認します。
+3. FPS を正しい [JSON 形式](https://github.com/GoogleChrome/first-party-sets/blob/main/RWS-Submission_Guidelines.md#set-submissions)で宣言します。
 4. Chrome が正規の FPS リストをホストする [`first_party_sets.JSON`](https://github.com/GoogleChrome/first-party-sets/blob/main/first_party_sets.JSON) への[プルリクエスト（PR）](https://github.com/GoogleChrome/first-party-sets/blob/main/first_party_sets.JSON)を作成して、First Party Set を提出します。（PR の作成には GitHub アカウントが必要です。また、リストに貢献するには、[Contributor's License Agreement（CLA）](https://cla.developers.google.com/about)に署名する必要があります。）
 
 PR が作成されると、一連のチェックが行われ、手順 2 の要件が満たされていることが検証されます。
